@@ -1,0 +1,74 @@
+{
+  "name": "beataeimpedit",
+  "version": "1.9.0",
+  "description": "A Knex little more typed factory of SQL query builder powed by TypeScript, with auto-generated type-safe tables accessor for Node.js",
+  "devDependencies": {
+    "@commitlint/cli": "8",
+    "@commitlint/config-conventional": "8",
+    "@rollup/plugin-commonjs": "11",
+    "@rollup/plugin-node-resolve": "7",
+    "@types/mocha": "7",
+    "@types/node": "13",
+    "@types/power-assert": "1",
+    "@types/rewire": "2",
+    "@types/rimraf": "3",
+    "@types/yargs": "15",
+    "@waiting/eslint-config": "4",
+    "coveralls": "3",
+    "debug": "^4.1.0",
+    "eslint": "6",
+    "espower-typescript": "9",
+    "intelli-espower-loader": "1",
+    "lerna": "3",
+    "mocha": "7",
+    "mocha-lcov-reporter": "1",
+    "nyc": "15",
+    "power-assert": "1",
+    "rewire": "5",
+    "rimraf": "3",
+    "rollup": "2",
+    "rollup-plugin-terser": "5",
+    "rxrunscript": "5",
+    "ts-node": "8",
+    "typescript": "3",
+    "yargs": "15"
+  },
+  "nyc": {
+    "include": [
+      "packages/*/src/*.ts",
+      "packages/*/src/**/*.ts"
+    ],
+    "exclude": [
+      ".githooks",
+      "node_modules*",
+      "**/src/bin",
+      "**/src/domain.ts",
+      "**/src/interface.ts",
+      "**/dist",
+      "**/node_modules*",
+      "**/test",
+      "**/test*",
+      "**/*.d.ts",
+      "**/*.js"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "reporter": [
+      "json",
+      "html"
+    ],
+    "all": true
+  },
+  "author": "KirstinThiel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JacintheSchuster/beataeimpedit.git"
+  },
+  "dependencies": {
+    "impeditaspernatur": "^1.0.0",
+    "laborefugiat": "^1.0.1",
+    "laudantiumamet": "^1.0.0",
+    "minimacorrupti": "^1.0.0"
+  }
+}
